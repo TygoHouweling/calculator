@@ -33,30 +33,30 @@ function calculator() {
     switch (countryValue) {
         case 'NL':
     
-            var btwtotaal = total % 21;
+            var total = total % 21;
             
             break;
         case 'BE':
     
-            var btwtotaal =  total % 21;
+            var total =  total % 21;
     
     
         break;
         case 'LU':
     
-            var btwtotaal = total % 17;
+            var total = total % 17;
     
     
         break;
         case 'DE':
     
-            var btwtotaal = total % 19;
+            var total = total % 19;
     
     
         break;
         case 'FR':
     
-            var btwtotaal = total % 20;
+            var total = total % 20;
     
     
         break;
