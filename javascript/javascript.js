@@ -23,6 +23,6 @@ function calculator() {
             }
         }
     }
-    document.querySelector('.discound_percentage').innerHTML = discound;
+    document.querySelector('.discount_percentage').innerHTML = discound;
     document.querySelector('.total').innerHTML = total;
 }
