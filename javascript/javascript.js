@@ -26,36 +26,37 @@ function calculator() {
     document.querySelector('.discount_percentage').innerHTML = discound;
     document.querySelector('.total').innerHTML = total;
 
-    const country = document.querySelectorAll('#country');
+    const country = document.getElementById('country')
+    const countryValue = country.value;
 
 
-    switch (country) {
+    switch (countryValue) {
         case 'NL':
     
-            var btwtotaal = totaal % 21;
+            var btwtotaal = total % 21;
             
             break;
         case 'BE':
     
-            var btwtotaal =  totaal % 21;
+            var btwtotaal =  total % 21;
     
     
         break;
         case 'LU':
     
-            var btwtotaal = totaal % 17;
+            var btwtotaal = total % 17;
     
     
         break;
         case 'DE':
     
-            var btwtotaal = totaal % 19;
+            var btwtotaal = total % 19;
     
     
         break;
         case 'FR':
     
-            var btwtotaal = totaal % 20;
+            var btwtotaal = total % 20;
     
     
         break;
