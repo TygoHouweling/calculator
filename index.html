@@ -7,6 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="action.php" method="post">
+        <label for="num">Aantal:</label><br>
+        <input type="number" id="num" name="num"><br>
+
+        <label for="price">Prijs</label><br>
+        <input type="number" id="price" name="price"><br><br>
+
+        <label for="country">Kies land biatch</label>
+          <select id="country" name="country">
+          <option value="NE">Nederland</option>
+          <option value="BE">Belgie</option>
+          <option value="DE">Duitsland</option>
+          <option value="FR">Frankrijk</option>
+          <option value="LU">Luxemburg</option>
+          </select><br>
+        <input type="submit" value="Submit">
+      </form>
 </body>
 </html>
