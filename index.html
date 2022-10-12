@@ -10,14 +10,14 @@
 </head>
 <body>
 <div class="container flex justify-content-center px-5">
-  <form method="post">
+  <form onsubmit="event.preventDefault()">
           <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
           <div class="form-group">
             <label for="num">Aantal:</label><br>
-            <input type="number" id="num" name="num"><br>
+            <input type="total_items" id="total_items" name="num"><br>
           </div>
           <div class="form-group">
             <label for="price">Prijs</label><br>
@@ -32,11 +32,15 @@
           <option value="FR">Frankrijk</option>
           <option value="LU">Luxemburg</option>
           </select><br>
-        <input type="submit" value="Submit">
+        <button onclick="calculator()">Submit</button>
           </div>
       </form>
 </div>
 
+
+<div class="total">
+    <h4 class="total"></h4>
+</div>
     <script src="javascript/javascript.js"></script>
 </body>
 </html>

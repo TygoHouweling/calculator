@@ -1,5 +1,5 @@
 function calculator() {
-    total = document.querySelector('#price').value;
+    total = document.querySelector('#total_items').value;
 
     if(total>=50000){
 
