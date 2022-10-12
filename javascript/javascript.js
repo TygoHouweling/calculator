@@ -1,5 +1,6 @@
 function calculator() {
     total = document.querySelector('#total_items').value;
+    const country = document.getElementById('country')
 
     let discound =0;
     if(total>=50000){
@@ -26,7 +27,6 @@ function calculator() {
     document.querySelector('.discount_percentage').innerHTML = discound;
     document.querySelector('.total').innerHTML = total;
 
-    const country = document.getElementById('country')
     const countryValue = country.value;
 
 
